@@ -9,6 +9,7 @@ import React, { useState } from "react";
 import PreviousQuestions from "./components/PreviousQuestions";
 import "./App.css";
 import Calculator from "./components/Calculator";
+import Invest_Calc from "./components/Invest_Calc"
 
 const questions1 = [
   {
@@ -1377,6 +1378,7 @@ function App() {
       <Header />
       <Description />
       <Instruction />
+      <Invest_Calc />
       {/* <Quiz /> */}
       <PreviousQuestions
         allQuestions={[questions1, questions2, questions3]}
