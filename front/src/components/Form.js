@@ -12,7 +12,6 @@ export function Form({
   const [skipAll, setSkipAll] = useState(false);
   const [showRecommendations, setShowRecommendations] = useState(false);
   const [returnAll, setReturnAll] = useState(false);
-
   const handleSkipAll = () => {
     if (showRecommendations) {
       setShowRecommendations(false);

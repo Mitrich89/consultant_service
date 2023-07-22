@@ -1378,7 +1378,6 @@ function App() {
       <Header />
       <Description />
       <Instruction />
-      <Invest_Calc />
       {/* <Quiz /> */}
       <PreviousQuestions
         allQuestions={[questions1, questions2, questions3]}
@@ -1404,6 +1403,7 @@ function App() {
         </div>
       </Router>
       */}
+      <Invest_Calc />
     </div>
   );
 
