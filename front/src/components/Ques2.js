@@ -108,7 +108,11 @@ export function Ques2({
                 onClick={() =>
                   handleYesClick(1, null, question2.id, question2.type, " Да")
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Yes"
               />
               Да
@@ -119,7 +123,11 @@ export function Ques2({
                 onClick={() =>
                   handleYesClick(8, null, question2.id, question2.type, " Нет")
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Skip"
               />
               Нет
@@ -139,7 +147,11 @@ export function Ques2({
                 onClick={() =>
                   handleYesClick(1, null, question2.id, question2.type, " Да")
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Yes"
               />
               Да
@@ -150,7 +162,11 @@ export function Ques2({
                 onClick={() =>
                   handleYesClick(13, null, question2.id, question2.type, " Нет")
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Skip"
               />
               Нет
@@ -159,7 +175,11 @@ export function Ques2({
               <input
                 type="radio"
                 onClick={() => handleYesClick(-1)}
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Back"
               />
               Вернуться
@@ -185,7 +205,11 @@ export function Ques2({
                     " Да"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Yes"
               />
               Да
@@ -202,7 +226,11 @@ export function Ques2({
                     " Нет"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Skip"
               />
               Нет
@@ -211,7 +239,11 @@ export function Ques2({
               <input
                 type="radio"
                 onClick={() => handleYesClick(-1)}
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Back"
               />
               Вернуться
@@ -230,7 +262,11 @@ export function Ques2({
                 onClick={() =>
                   handleYesClick(1, null, question2.id, question2.type, " Да")
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Yes"
               />
               Да
@@ -247,7 +283,11 @@ export function Ques2({
                     " Нет"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Skip"
               />
               Нет
@@ -264,7 +304,11 @@ export function Ques2({
                     " Пропустить"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Skip"
               />
               Пропустить
@@ -273,7 +317,11 @@ export function Ques2({
               <input
                 type="radio"
                 onClick={() => handleYesClick(-1)}
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Back"
               />
               Вернуться
@@ -298,7 +346,11 @@ export function Ques2({
                     " Да"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Yes"
               />
               Да
@@ -309,7 +361,11 @@ export function Ques2({
                 onClick={() =>
                   handleYesClick(1, null, question2.id, question2.type, " Нет")
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Skip"
               />
               Нет
@@ -318,7 +374,11 @@ export function Ques2({
               <input
                 type="radio"
                 onClick={() => handleYesClick(-1)}
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Back"
               />
               Вернуться
@@ -343,7 +403,11 @@ export function Ques2({
                     "Да"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Yes"
               />
               Да
@@ -360,7 +424,11 @@ export function Ques2({
                     " Нет"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Skip"
               />
               Нет
@@ -369,7 +437,11 @@ export function Ques2({
               <input
                 type="radio"
                 onClick={() => handleYesClick(-1)}
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Back"
               />
               Вернуться
@@ -392,7 +464,11 @@ export function Ques2({
                 onClick={() =>
                   handleYesClick(1, null, question2.id, question2.type, " Да")
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Yes"
               />
               Да
@@ -409,7 +485,11 @@ export function Ques2({
                     " Нет"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="No"
               />
               Нет
@@ -426,7 +506,11 @@ export function Ques2({
                     " Пропустить"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Skip"
               />
               Пропустить
@@ -435,7 +519,11 @@ export function Ques2({
               <input
                 type="radio"
                 onClick={() => handleYesClick(-1)}
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Back"
               />
               Вернуться
@@ -464,7 +552,11 @@ export function Ques2({
                     " Да"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Yes"
               />
               Да
@@ -481,7 +573,11 @@ export function Ques2({
                     " Нет"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="No"
               />
               Нет
@@ -498,7 +594,11 @@ export function Ques2({
                     " Пропустить"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Skip"
               />
               Пропустить
@@ -507,7 +607,11 @@ export function Ques2({
               <input
                 type="radio"
                 onClick={() => handleYesClick(-1)}
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Back"
               />
               Вернуться
@@ -526,7 +630,11 @@ export function Ques2({
                 onClick={() =>
                   handleYesClick(1, null, question2.id, question2.type, " Да")
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Yes"
               />
               Да
@@ -543,7 +651,11 @@ export function Ques2({
                     " Нет"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="No"
               />
               Нет
@@ -560,7 +672,11 @@ export function Ques2({
                     " Пропустить"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Skip"
               />
               Пропустить
@@ -569,7 +685,11 @@ export function Ques2({
               <input
                 type="radio"
                 onClick={() => handleYesClick(-1)}
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Back"
               />
               Вернуться
@@ -593,7 +713,11 @@ export function Ques2({
                 onClick={() =>
                   handleYesClick(1, null, question2.id, question2.type, " Да")
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Yes"
               />
               Да
@@ -610,7 +734,11 @@ export function Ques2({
                     " Нет"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Skip"
               />
               Нет
@@ -627,7 +755,11 @@ export function Ques2({
                     " Пропустить"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Skip"
               />
               Пропустить
@@ -636,7 +768,11 @@ export function Ques2({
               <input
                 type="radio"
                 onClick={() => handleYesClick(-1)}
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Back"
               />
               Вернуться
@@ -665,7 +801,11 @@ export function Ques2({
                     " Да"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Yes"
               />
               Да
@@ -682,7 +822,11 @@ export function Ques2({
                     " Нет"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Skip"
               />
               Нет
@@ -699,7 +843,11 @@ export function Ques2({
                     " Пропустить"
                   )
                 }
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Skip"
               />
               Пропустить
@@ -708,7 +856,11 @@ export function Ques2({
               <input
                 type="radio"
                 onClick={() => handleYesClick(-1)}
-                name={question2.id.toString()}
+                name={
+                  question2.id.toString() +
+                  question2.type.toString() +
+                  question2.person.toString()
+                }
                 value="Back"
               />
               Вернуться
